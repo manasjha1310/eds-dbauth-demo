@@ -125,7 +125,7 @@ async function loadPage() {
   await loadLazy(document);
   loadDelayed();
 }
-window.addEventListener('load',()=>{
+window.addEventListener('load',function() {
 console.log("hello");
 })
 loadPage();
